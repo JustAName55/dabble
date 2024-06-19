@@ -12,7 +12,8 @@ const client = new Client({
 });
 
 client.commands = new Collection();
-global.isDabbleEnabled = false;
+global.isDabbleEnabled = true;
+global.dabbleRatio = 30; // % of messages to filter out
 // d = 339975066127171589
 // tt = 343242317182009345
 // mal = 229062703996469248
